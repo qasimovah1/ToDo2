@@ -9,28 +9,46 @@ body {
 #demo .col-md-6 {
   margin: auto;
 }
-#demo .col-md-6 .box {
-  background: #5c81c5;
-  width: 450px;
+#demo .col-md-6 .chat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #afbeda;
+  width: 500px;
   height: 300px;
   border-radius: 20px;
 }
-#demo .col-md-6 .box .textbox {
-  width: 400px;
+#demo .col-md-6 .chat .message {
+  width: 450px;
   height: 200px;
   border-radius: 20px;
   background: white;
-  margin-bottom: 50px;
 }
-#demo .col-md-6 .box .textbox h2 {
+#demo .col-md-6 .chat .message .line {
   width: 50px;
   height: 30px;
-  border-radius: 8px;
-  background: #5c81c5;
-  margin: 10px 10px 0;
+  border-radius: 10px;
+  background: #d6cd2b;
+}
+#demo .col-md-6 .chat .message .line h2 {
+  text-align: center;
+  margin: 5px 0;
   color: white;
 }
-#demo .col-md-6 .box .message input {
-  height: 50px;
-  border-radius: 20px;
+#demo .col-md-6 .chat .text {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+}
+#demo .col-md-6 .chat .text .sent {
+  width: 50px;
+  height: 30px;
+  border-radius: 10px;
+  background: #d6cd2b;
+}
+#demo .col-md-6 .chat .text .sent h3 {
+  text-align: center;
+  margin: 5px 0;
+  color: white;
 }/*# sourceMappingURL=style.css.map */
