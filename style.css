@@ -25,26 +25,20 @@ body {
   border-radius: 20px;
   background: white;
 }
-#demo .col-md-6 .chat .message .line {
-  width: 50px;
-  height: 30px;
-  border-radius: 10px;
-  background: #d6cd2b;
-}
-#demo .col-md-6 .chat .message .line h2 {
-  text-align: center;
-  margin: 5px 0;
-  color: white;
-}
 #demo .col-md-6 .chat .text {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding-top: 20px;
+}
+#demo .col-md-6 .chat .text input {
+  margin-right: 10px;
+  border-radius: 20px;
 }
 #demo .col-md-6 .chat .text .sent {
   width: 50px;
   height: 30px;
-  border-radius: 10px;
+  border-radius: 15px;
   background: #d6cd2b;
 }
 #demo .col-md-6 .chat .text .sent h3 {
