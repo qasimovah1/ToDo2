@@ -25,18 +25,6 @@ body {
   border-radius: 20px;
   background: white;
 }
-#demo .col-md-6 .chat .message .minibox {
-  text-align: center;
-  margin: 8px 8px 0;
-  padding: 5px 0;
-  width: 50px;
-  height: 30px;
-  border-radius: 20px;
-  background: #e7e556;
-}
-#demo .col-md-6 .chat .message .minibox h3 {
-  color: white;
-}
 #demo .col-md-6 .chat .text {
   display: flex;
   align-items: center;
