@@ -25,6 +25,18 @@ body {
   border-radius: 20px;
   background: white;
 }
+#demo .col-md-6 .chat .message .line {
+  width: 50px;
+  height: 30px;
+  border-radius: 15px;
+  margin: 10px 10px 0;
+  padding: 6px 0;
+  background: #d6cd2b;
+  color: white;
+}
+#demo .col-md-6 .chat .message .line h3 {
+  margin: 2px 7px;
+}
 #demo .col-md-6 .chat .text {
   display: flex;
   align-items: center;
@@ -44,15 +56,5 @@ body {
 #demo .col-md-6 .chat .text .sent h3 {
   text-align: center;
   margin: 5px 0;
-  color: white;
-}
-#demo .line {
-  width: 50px;
-  height: 30px;
-  border-radius: 15px;
-  margin: 10px 10px 0;
-  padding: 6px 0;
-  max-width: 150px;
-  background: #d6cd2b;
   color: white;
 }/*# sourceMappingURL=style.css.map */
