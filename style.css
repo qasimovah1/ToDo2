@@ -25,7 +25,7 @@ body {
   border-radius: 20px;
   background: white;
 }
-#demo .col-md-6 .chat .message .line {
+#demo .col-md-6 .chat .message div .line {
   width: 50px;
   height: 30px;
   border-radius: 15px;
@@ -34,7 +34,7 @@ body {
   background: #d6cd2b;
   color: white;
 }
-#demo .col-md-6 .chat .message .line h3 {
+#demo .col-md-6 .chat .message div .line h3 {
   margin: 2px 7px;
 }
 #demo .col-md-6 .chat .text {
