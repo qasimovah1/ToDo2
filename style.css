@@ -35,7 +35,7 @@ body {
   color: white;
 }
 #demo .col-md-6 .chat .message .line h3 {
-  margin: 3px 7px;
+  margin: 2px 7px;
 }
 #demo .col-md-6 .chat .text {
   display: flex;
@@ -46,6 +46,7 @@ body {
 #demo .col-md-6 .chat .text input {
   margin-right: 10px;
   border-radius: 20px;
+  border: 2px solid #f8f559;
 }
 #demo .col-md-6 .chat .text .sent {
   width: 50px;
