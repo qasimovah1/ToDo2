@@ -19,17 +19,18 @@ body {
   height: 300px;
   border-radius: 20px;
 }
-#demo .col-md-6 .chat #messageyou {
+#demo .col-md-6 .chat .message {
   width: 450px;
   height: 200px;
   border-radius: 20px;
   background: white;
+  overflow: auto;
 }
-#demo .col-md-6 .chat #messageyou .line {
+#demo .col-md-6 .chat .message .line {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: columnx;
+  flex-direction: column;
   width: 50px;
   height: 30px;
   border-radius: 15px;
@@ -37,9 +38,6 @@ body {
   padding: 6px 0;
   background: #d6cd2b;
   color: white;
-}
-#demo .col-md-6 .chat #messageyou .line h3 {
-  margin: 2px 7px;
 }
 #demo .col-md-6 .chat .text {
   display: flex;
