@@ -16,7 +16,7 @@ $(document).ready(function () {
                 $(newDiv).append(newH3)
                 $(bigDiv).append(newDiv)
                 return bigDiv
-            }
+              }
             else {
                 return
             }
@@ -25,7 +25,7 @@ $(document).ready(function () {
         $("#messageme").append(myel('class= "end"'))
         $("#inputme").val("")
 
-        document.querySelector("#messageme").scrollTo(0, document.querySelector("#messagme").scrollHeight)
+        document.querySelector("#messageme").scrollTo(0, document.querySelector("#messageme").scrollHeight)
         document.querySelector("#messageyou").scrollTo(0, document.querySelector("#messageyou").scrollHeight)
     });
 
@@ -50,7 +50,7 @@ $(document).ready(function () {
         $("#messageyou").append(myel('class= "end"'))
         $("#inputyou").val("")
 
-        document.querySelector("#messageme").scrollTo(0, document.querySelector("#messagme").scrollHeight)
+        document.querySelector("#messageme").scrollTo(0, document.querySelector("#messageme").scrollHeight)
         document.querySelector("#messageyou").scrollTo(0, document.querySelector("#messageyou").scrollHeight)
     });
 });
