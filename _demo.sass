@@ -1,8 +1,9 @@
 #demo
     padding: 100px 0
+    display: flex
+    justify-content: center
     .col-md-6
         margin: auto
-
         .chat
             display: flex
             justify-content: center
@@ -12,46 +13,43 @@
             width: 500px
             height: 300px
             border-radius: 20px
+            border: 2px solid #8695eb
+            h3
+                display: inline-block
+                background: #d6cd2b
+                color: #ffff
+                border-radius: 40px
+                margin: 10px
+                padding: 7px 13px
 
             .message
-                width: 450px
-                height: 200px
+                width: 480px
+                height: 220px
                 border-radius: 20px
                 background: #ffff
                 overflow: auto
-                // div
-                //     text-align: end
-                .line
-                    display: flex
-                    justify-content: center
-                    align-items: center
-                    flex-direction: column
-                    width: 50px
-                    height: 30px
-                    border-radius: 15px
-                    margin: 10px 10px 0
-                    padding: 6px 0
-                    background: #d6cd2b
-                    color: #ffff
-                    h3
-                  
+                .end
+                    text-align: end
+
             .text
                 display: flex
+                justify-content: center
                 align-items: center
-                justify-content: space-between
                 padding-top: 20px
 
                 input
-                    margin-right: 10px
-                    border-radius: 20px
-                    border: 2px solid #f8f559
-
-                .sent
-                    width: 50px
-                    height: 30px
                     border-radius: 15px
-                    background: #d6cd2b
+                    padding: 6px 15px
+                .sent
+                    display: inline-block
                     h3
-                        text-align: center
-                        margin: 5px 0
+                        flex-direction: row
+                        border: 1px solid #d6cd2b
+                        background: #d6cd2b
                         color: #ffff
+                        display: flex
+                        justify-content: center
+                        margin: 0 5px
+                        padding: 6px
+                        width: 65px
+                        border-radius: 20px
