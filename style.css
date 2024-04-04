@@ -50,16 +50,11 @@ body {
   border-radius: 15px;
   padding: 6px 15px;
 }
-#demo .col-md-6 .chat .text .sent {
-  display: inline-block;
-}
 #demo .col-md-6 .chat .text .sent h3 {
-  flex-direction: row;
   border: 1px solid #d6cd2b;
   background: #d6cd2b;
   color: white;
-  display: flex;
-  justify-content: center;
+  text-align: center;
   margin: 0 5px;
   padding: 6px;
   width: 65px;
