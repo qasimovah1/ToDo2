@@ -5,8 +5,6 @@ body {
 
 #demo {
   padding: 100px 0;
-  display: flex;
-  justify-content: center;
 }
 #demo .col-md-6 {
   margin: auto;
@@ -39,6 +37,9 @@ body {
 }
 #demo .col-md-6 .chat .message .end {
   text-align: end;
+}
+#demo .col-md-6 .chat .message::-webkit-scrollbar {
+  display: none;
 }
 #demo .col-md-6 .chat .text {
   display: flex;
